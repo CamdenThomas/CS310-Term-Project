@@ -1,0 +1,37 @@
+# Unreal Engine: generated per machine, never commit.
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Build/ holds a few hand-edited files (icons, store art); the rest is generated.
+/Build/*
+!/Build/*/
+/Build/*/**
+!/Build/*/**/
+!/Build/**/*.ico
+!/Build/**/*.icns
+!/Build/**/*.png
+
+# Per-user editor content
+/Content/Developers/
+
+# Packaged builds
+*.apk
+*.aab
+*.obb
+
+# IDE / editor
+.vs/
+.vscode/
+.idea/
+*.xcworkspace
+*.xcodeproj
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+
+# macOS
+.DS_Store
